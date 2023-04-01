@@ -14,16 +14,19 @@ export interface Database {
           created_at: string
           id: string
           text: string
+          user_id: string
         }
         Insert: {
           created_at?: string
           id?: string
           text: string
+          user_id: string
         }
         Update: {
           created_at?: string
           id?: string
           text?: string
+          user_id?: string
         }
       }
     }
