@@ -21,8 +21,8 @@ export default function Login() {
 
   return (
     <>
-      <button onCLick={handleLogout}>Logout</button>
-      <button onCLick={handleLogin}>Login</button>
+      <button onClick={handleLogout}>Logout</button>
+      <button onClick={handleLogin}>Login</button>
     </>
   );
 }
